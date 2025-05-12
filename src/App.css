@@ -7,12 +7,86 @@
   margin: auto;
 }
 
-.btn {
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 12px 4px;
+}
 
+.logo {
+  width: 200px;
+}
+
+.menu-box {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.menu:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 여기저기서 쓸 버튼 스타일 */
+.btn-fill{
   padding: 8px 16px;
   background-color: pink;
   color: white;
-  cursor: pointer;
-  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+}
 
+
+
+
+.input-box{
+
+  display: flex;
+  width: 60%; /*600*/
+  height: 60px;
+  margin: auto;
+  margin-bottom: 40px;  
+  /*  */
+}
+
+
+.input-text{
+
+  width: 80%; /*480*/
+  border: 2px solid pink;
+  outline: none;
+  padding: 4px;
+  font-size: 20px;
+
+}
+
+.input-btn
+{
+  flex-grow: 1;
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.data{
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+.data-date{
+  width: 100px;
+}
+
+.data-box{
+  margin-top: 40px;
 }

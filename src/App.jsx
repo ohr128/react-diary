@@ -39,13 +39,11 @@ function App() {
       <Route path="/lotto" element={<Lotto />} />
 
 
+      
 
-      {/* 주소가 /post Post 컴포넌트 */}
-      <Route path="/post" element={<Post />} />
-      {/* PostWrite */}
-      {/* 글쓰기 버튼 클릭시 .postWrite 요청 -> useNavigate 사용 */}
-      <Route path="/postWrite" element={<PostWrite />} />
-      <Route path="/postDetail" element={<PostDetail />} />
+       {/* post 관련 화면들은 Post.jsx 내에서 라우팅 */}
+        <Route path="/post/*" element={<Post />} />
+
 
     </Routes>
 

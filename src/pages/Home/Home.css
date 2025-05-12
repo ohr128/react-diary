@@ -1,37 +1,4 @@
 /* 여기저기서 사용될 UI 요소 스타일 */
-
-.container {
-    width: 1000px;
-    height: 600px;
-    border: 1px solid black;
-    margin: auto;
-  }
-  
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #aaaaaa;
-    padding: 12px 4px;
-  }
-  
-  .logo {
-    width: 200px;
-  }
-  
-  .menu-box {
-    display: flex;
-    align-items: center;
-  }
-  
-  .menu {
-    color: black;
-    text-decoration: none;
-    padding: 12px;
-  }
-  
-  .menu:hover {
-    text-decoration: underline;
-  }
   
   
   .input-box{
@@ -78,39 +45,3 @@
     margin-top: 40px;
   }
 
-
-
-  
-.modal-close{
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
-}
-
-.modal-top{
-
-  text-align: end;
-}
-
-.modal{
-  width: 320px;
-  height: 260px;
-  position: fixed;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, 0);
-  box-shadow: 0 0 4px 1px #cccccc;
-  border-radius: 12px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-bottom{
-  flex-grow: 1;
-  padding: 0 12px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

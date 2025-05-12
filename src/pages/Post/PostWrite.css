@@ -1,11 +1,26 @@
-.write-box{
-
-    border: 1px solid black;
-
+.write-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
 }
 
-.input-write{
+.write-title {
+  border: 2px solid pink;
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  outline: none;
+  border-radius: 4px;
+}
 
-    border: 1px solid pink;
-
+.write-content {
+  border: 2px solid pink;
+  width: 100%;
+  height: 400px;
+  outline: none;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 12px;
+  resize: none;
 }
